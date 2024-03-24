@@ -1,0 +1,28 @@
+spring:
+
+  h2:
+    console:
+      enabled: true
+
+  datasource:
+    url:
+    driver-class-name:
+    username:
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+
+logging:
+  level:
+    com.example: DEBUG
+
+
+
+
